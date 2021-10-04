@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<HTML lang="pt-br"> 
-<head> 
-<meta charset="UTF-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-compatible" content="ie=edge">
-<title>Contato</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
 
 </head>
 <section class="content"> 
@@ -15,28 +15,33 @@ body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 .content{width: 100%; max-width: 500px;}
 .form{display: flex; flex-direction: column;}
 .field{padding: 10px;margin-bottom: 15px;border:1px solid #ddd; border-radius: 5px; font-family: Arial, Helvetica, sans-serif; font-size: 15px;}
-textarea{height: 150px;}
 
 
         </style>
-        <h1>Controle Financeiro</h1>
-        <h5>Registrar um novo usuário</h5>
-<form class="form" method="POST" action="index.php">
-<input class="field" name="name" placeholder="Nome">
-<input class="field" name="name" placeholder="Sobrenome">
-<input class="field" name="email" placeholder="Email">
-<input class="field" name="password" placeholder="Senha">
-<input class="field" name="password" placeholder="Repita a Senha">
-<textarea class="field" name="message" placeholder="Digite sua mensagem aqui."> </textarea>
-<input class="field" type="submit" value="Enviar">
+        
+        <h1>Controle FINANCEIRO</h1>
+        
+        <div> 
+        <fieldset>
+        <P> <center> Registrar um novo usuário <center> <P>
+<form class="form" method="POST" action="cod.php">
+<input class="field" name="name" placeholder="Nome" required>
+<input class="field" name="name" placeholder="Sobrenome" required>
+<input class="field" name="email" placeholder="Email" required>
+<input class="field" name="password" placeholder="Password" required>
+<input class="field" name="password" placeholder="Retype password" required>
+<input class="field" type="submit" value="Registrar">
 
 </form>
-
+        
+    
+      </fieldset>
+</div>
+    <center> <p> Ainda não é inscrito?</p> <a href=""><strong> Cadastre-se! </strong> </a> </center>
+       
+          
     </div>
-</section>
-<script language=JavaScript> alert('Seja bem vindo(a)!'); </script>;
+    <script language=JavaScript> alert('Seja bem vindo(a)!'); </script>
 
-
-
-
-</HTML>
+</body>
+</html>
