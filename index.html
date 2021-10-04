@@ -7,37 +7,42 @@
     <title>Contato</title>
 
 </head>
-<section class="content"> 
-    <div class="contato">
         <style>
-body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+body{background-color: #D3D3D3; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 .content{display:flex;justify-content:center;}
-.content{width: 100%; max-width: 500px;}
+.contato{width: 100%; max-width: 500px;}
 .form{display: flex; flex-direction: column;}
 .field{padding: 10px;margin-bottom: 15px;border:1px solid #ddd; border-radius: 5px; font-family: Arial, Helvetica, sans-serif; font-size: 15px;}
+ div{background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 500px;}
 
+</style>
 
-        </style>
+<h1> <center> Controle FINANCEIRO <center> </h1> 
+
+       
+<div>
         
-        <h1>Controle FINANCEIRO</h1>
         
-        <div> 
-        <fieldset>
+        
+        
         <P> <center> Registrar um novo usuário <center> <P>
 <form class="form" method="POST" action="cod.php">
 <input class="field" name="name" placeholder="Nome" required>
 <input class="field" name="name" placeholder="Sobrenome" required>
 <input class="field" name="email" placeholder="Email" required>
 <input class="field" name="password" placeholder="Password" required>
-<INPUT TYPE="checkbox" NAME="termos" VALUE="termos"> Eu concordo com os termos
+<input class="field" name="password" placeholder="Retype password" required>
+<center> <INPUT TYPE="checkbox" NAME="termos" VALUE="termos"> Eu concordo com os termos <center> 
 <input class="field" type="submit" value="Registrar">
 
+
+            
 </form>
         
     
-      </fieldset>
-</div>
-    <center> <p> Ainda não é inscrito?</p> <a href=""><strong> Cadastre-se! </strong> </a> </center>
+      
+
+    <center> <p> Ainda não é inscrito?</p> <a href=""><strong> Cadastre-se! </strong> </a> </center> <br>
        
           
     </div>
